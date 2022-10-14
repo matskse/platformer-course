@@ -14,14 +14,12 @@ public class PlayerMovement : MonoBehaviour
     maxSpeed = 4;
     [SerializeField]
     private LayerMask groundLayer;
-    private SpriteRenderer sr;
     private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        sr = GetComponent<SpriteRenderer>();
         inputVector = Vector2.zero;
         animator = GetComponent<Animator>();
     }
@@ -34,7 +32,8 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(movementForce);
         }
         handleAnimations();
-        flipSpriteTowardsMovement();
+        flipTowardsMovement();
+        isGrounded();
         
     }
 
@@ -53,18 +52,17 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private bool isGrounded() {
-        float heightControlParam = 0.1f;
-        RaycastHit2D raycastHit = Physics2D.Raycast(capsuleCollider.bounds.center, Vector2.down, capsuleCollider.bounds.extents.y + heightControlParam, groundLayer);
-        // Debug.DrawRay(capsuleCollider.bounds.center, Vector2.down * (capsuleCollider.bounds.extents.y + heightControlParam));
+        float heightControlParam = 0.2f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider.bounds.center,capsuleCollider.bounds.size, 0, Vector2.down, heightControlParam, groundLayer);
         return raycastHit.collider != null;
     }
 
-    private void flipSpriteTowardsMovement() {
+    private void flipTowardsMovement() {
         if (inputVector.x < 0) {
-            sr.flipX = true;
+            transform.localScale= new Vector3(-1, 1, 1);
         }
         else if (inputVector.x > 0) {
-            sr.flipX = false;
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 

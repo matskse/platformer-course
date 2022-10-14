@@ -12,7 +12,7 @@ public class CameraScript : MonoBehaviour
 
     void Start()
     {
-        offset = new Vector3(0, 0, -15);
+        offset = new Vector3(0, 0, -20);
         smoothTime = 0.25f;
         velocity = Vector3.zero;
     }
