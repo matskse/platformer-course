@@ -10,6 +10,8 @@ Use Unity Hub to open an existing project and select the platformer-course folde
 
 Unity will now download the required packages used in this project. This might take a few minutes.  
 
+When the project opens, go inside the Scenes folder and open the Sample scene.
+
 ## The course
 The course consists of 9 tasks that teach fundamental game development concepts for 2D games.
 The main branch contains skeleton code, sprites and prefabs that can be used to complete the tasks, and the lf branch contains the løsningsforslag🤓.  
