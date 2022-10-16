@@ -11,8 +11,8 @@ Use Unity Hub to open an existing project and select the platformer-course folde
 Unity will now download the required packages used in this project. This might take a few minutes.  
 
 ## The course
-The course consists of X tasks that teach fundamental game development concepts for 2D games.
-The main branch contains skeleton code and sprites that can be used to complete the tasks, and the lf branch contains the løsningsforslag🤓.  
+The course consists of 9 tasks that teach fundamental game development concepts for 2D games.
+The main branch contains skeleton code, sprites and prefabs that can be used to complete the tasks, and the lf branch contains the løsningsforslag🤓.  
 
 If you get stuck on a task, feel free to use google, ask any of the course helpers, or take a look at the lf branch.  
 
