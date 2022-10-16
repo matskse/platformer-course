@@ -66,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // TODO: Set the "Falling" and "Running" parameters of the animator component. 
+    // Hint: Rigidbodies have a velocity vector we can check.
     private void handleAnimations() {
         animator.SetBool("Falling", false);
         animator.SetBool("Running", false);
