@@ -113,7 +113,7 @@ Add the Player attack component to the Player prefab. Drag and drop the Bullet p
 
 ![image](https://user-images.githubusercontent.com/37469920/196046398-f5ab11c4-8761-4b41-93fd-100e88a006af.png)  
 
-Now that we have the Player attack component on the Player, we can connect it to the Player Input component. Just as we did with the Movement and Jump actions, connect the OnShootButtonInput to the Shoot action on the Player Input component:
+Now that we have the Player attack component on the Player, we can connect it to the Player Input component. Just as we did with the Movement and Jump actions, connect the OnShootButtonInput to the Shoot action on the Player Input component:  
 ![image](https://user-images.githubusercontent.com/37469920/196046484-e8c836d6-32d1-42ed-b174-ea86539866d1.png)  
 
 Play the game and see if your shoot button prints some output to the console.  
