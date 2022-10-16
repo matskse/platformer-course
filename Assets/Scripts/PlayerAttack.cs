@@ -9,7 +9,9 @@ public class PlayerAttack : MonoBehaviour
     public GameObject bullet;
     public GameObject muzzle;
     public GameObject gunBase;
-    int bulletSpeed = 20;
+
+    //TODO: Find a suitable bullet speed
+    int bulletSpeed = 1;
 
     void Start()
     {
@@ -21,18 +23,16 @@ public class PlayerAttack : MonoBehaviour
         
     }
 
+    // TODO: Instantiate a bullet prefab at the muzzle position. Find the direction to shoot. Set the bullet's velocity.
     void Shoot() {
-        GameObject b = Instantiate(bullet, muzzle.transform.position, Quaternion.identity);
-        if (transform.localScale.x < 0) {
-            b.GetComponent<SpriteRenderer>().flipX = true;
-        }
-        Vector3 dir = (muzzle.transform.position - gunBase.transform.position).normalized;
-        b.GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed;
+        return;
     }
 
+
+    // TODO: Shoot() when this input is called.
     public void OnShootButtonInput(InputAction.CallbackContext context) {
         if (context.performed) {
-            Shoot();
+            Debug.Log("Shoot!");
         }
     }
 

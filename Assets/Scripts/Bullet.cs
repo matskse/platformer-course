@@ -17,13 +17,12 @@ public class Bullet : MonoBehaviour
         
     }
 
+    // TODO: Call TakeDamage() of PlayerHealth and EnemyHealth if they exist on other.gameObject.
     void OnCollisionEnter2D(Collision2D other) {
-        if (other.gameObject.GetComponent<EnemyHealth>() && active) {
-            other.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
+        if (!active) {
+            return;
         }
-        else if (other.gameObject.GetComponent<PlayerHealth>() && active) {
-            other.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
-        }
+        Debug.Log(other);
         active = false;
     }
 }

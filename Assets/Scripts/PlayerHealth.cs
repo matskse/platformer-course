@@ -19,21 +19,13 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
+    // TODO: Set the "die" trigger on the animator. Disable the Player inputs, Player attacks and Player movement components. Only die once. 
     void Die() {
-        if (dead) {
-            return;
-        }
-        anim.SetTrigger("die");
-        GetComponent<PlayerAttack>().enabled = false;
-        GetComponent<PlayerMovement>().enabled = false;
-        GetComponent<PlayerInput>().enabled = false;
-        dead = true;
+        return;
     }
 
+    // TODO: Decrease the health if we take damage. Call the Die() function when we die.
     public void TakeDamage(int amount) {
-        health -= amount;
-        if (health <= 0) {
-            Die();
-        }
+        return;
     }
 }
