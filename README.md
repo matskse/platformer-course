@@ -1,4 +1,4 @@
-# Platformer course with Unity (WIP)
+# Platformer course with Unity
 
 ## Download and run this project
 
