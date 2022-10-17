@@ -164,6 +164,7 @@ Ideas for extra things to add to the game:
 - Limited ammo and ammo pickups.
 - Limited time to clear level.
 - A Main Menu
+- Improve the enemy "AI". Make them harder to kill by making them smarter.
 - Blood splat particle effects.
 - Aiming and shooting upwards.
 - Your own cool ideas😀
