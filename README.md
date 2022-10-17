@@ -1,4 +1,8 @@
 # Platformer course with Unity
+![image](https://user-images.githubusercontent.com/37469920/196097941-ec0da344-0e65-40db-932f-cfbc44a31514.png)
+
+
+
 
 ## Download and run this project
 
