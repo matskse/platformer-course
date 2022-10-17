@@ -161,6 +161,8 @@ Ideas for extra things to add to the game:
 - A Ruletile for background bricks.
 - A score that increases when killing enemies.
 - Scene transitions. For example loading the next level after all enemies are killed.
+- Limited ammo and ammo pickups.
+- Limited time to clear level.
 - A Main Menu
 - Blood splat particle effects.
 - Aiming and shooting upwards.
