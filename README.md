@@ -159,7 +159,7 @@ Make a level with the Player and some enemies. You can drag and drop Enemy prefa
 Ideas for extra things to add to the game:
 - A background Tilemap for visual background tiles.
 - A Ruletile for background bricks.
-- Shooting bullets towards mouse cursor.
+- Aiming and shooting upwards.
 - Blood splat particle effects.
 - A Main Menu
 - Scene transitions. For example loading the next level after all enemies are killed.
