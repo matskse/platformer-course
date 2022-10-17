@@ -142,7 +142,7 @@ Hints for the Die() function:
 
 The Player prefab is now complete!🚀
 
-## Task 8: 
+## Task 8: Bullets
 **Implement the bullet**  
 
 Open the Bullet.cs script and implement the ```OnCollisionEnter2D(Collision2D other)``` function. This function is called when the bullets collider intersects with another collider in Unity.  
@@ -150,7 +150,7 @@ The bullet should call the TakeDamage functions of PlayerHealth and EnemyHealth 
 ```if (other.gameObject.GetComponent<EnemyHealth>())``` and ```if (other.gameObject.GetComponent<PlayerHealth>())```. And then call the TakeDamage functions if we find any of the two components.  
 We can either destroy the bullet object afterwards, or set it to an inactive state to have it stick around in the level.
 
-## Task 9:
+## Task 9: Levels
 **Making a level**  
 
 Make a level with the Player and some enemies. You can drag and drop Enemy prefabs into the scene, and set the values of the EnemyAttack and EnemyMovement scripts.  
