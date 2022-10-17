@@ -110,6 +110,11 @@ For example: Click one of the white arrows to Player_run and add a new condition
 
 ![image](https://user-images.githubusercontent.com/37469920/196044525-49e1d3e5-28cc-4e6c-bab9-f7eb6c46acf1.png)  
 
+All animations for the Player is done, except for the Player_run animation. Open the Animation window and select the Player. Select the Player_run animation from the drop down, and drag and drop the running sprites from the player sprite sheet. Adjust the speed of the animation by adjusting the gap between the sprites. Play it to see a preview of it in action.  
+
+![image](https://user-images.githubusercontent.com/37469920/196096849-c3bf7477-2ab2-4ef1-8771-cbed68f53b3f.png)
+
+
 At this point the player should be able to move and jump, while displaying the correct animations. 
 Try to experiment with different values for the speed, max speed and the jump force. You can also find the DefaultMaterial in the Materials folder used for the physics calculations and change the friction to change how the player movement behaves.
 
@@ -157,6 +162,7 @@ Make a level with the Player and some enemies. You can drag and drop Enemy prefa
 
 ## Extra tasks
 Ideas for extra things to add to the game:
+- Fix the bug where the Player's collider is too large after he dies.
 - A background Tilemap for visual background tiles.
 - A Ruletile for background bricks.
 - A score that increases when killing enemies.
