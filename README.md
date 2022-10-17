@@ -153,4 +153,13 @@ We can either destroy the bullet object afterwards, or set it to an inactive sta
 ## Task 9:
 **Making a level**  
 
-Make a level with the Player and some enemies. You can drag and drop Enemy prefabs into the scene, and set the values of the EnemyAttack and EnemyMovement scripts.
+Make a level with the Player and some enemies. You can drag and drop Enemy prefabs into the scene, and set the values of the EnemyAttack and EnemyMovement scripts.  
+
+## Extra tasks
+Ideas for extra things to add to the game:
+- A background Tilemap for visual background tiles.
+- A Ruletile for background bricks.
+- Shooting bullets towards mouse cursor.
+- Blood splat particle effects.
+- A Main Menu
+- Scene transitions. For example loading the next level after all enemies are killed.
