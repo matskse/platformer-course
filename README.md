@@ -164,5 +164,5 @@ Ideas for extra things to add to the game:
 - A Main Menu
 - Blood splat particle effects.
 - Aiming and shooting upwards.
-- 
--
+- Your own cool ideas😀
+
