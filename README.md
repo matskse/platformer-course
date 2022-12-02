@@ -53,7 +53,7 @@ We have now made a new rule for the top left tile of our ground. Add 2 more rule
 
 Our Tilemap is allmost done, we are able to paint the levels more easily now, however they do not interact with the Unity world yet. They are only cosmetic images.
 Add a new component to the Tilemap by selecting it and clicking the Add component button in the inspector. Search Tilemap and add a Tilemap Collider 2D.
-This adds a collider to the Tilemap so other objects in Unity can collide with it. We need this for out player and enemies to be able to walk on our levels. Add the default material as the Physics Material 2D fir the Tilemap Collider.  
+This adds a collider to the Tilemap so other objects in Unity can collide with it. We need this for out player and enemies to be able to walk on our levels. Add the default material as the Physics Material 2D fir the Tilemap Collider. Last but not least: Set the Tilemap layer to Ground  
 
 ## Task 2: Backgrounds
 **Add a background with parallax effect**  
