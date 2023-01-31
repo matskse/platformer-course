@@ -75,7 +75,7 @@ Open the Player Input Actions by double clicking it in the Assets/InputSystem fo
 Press the small + symbol on an action to add a new binding to it. A binding is how we define which button should triger this action.
 Select a path for the binding to bind it to a button. Tip: Use the listen function to listen for button presses and select that button.  
 
-If you have a gamepad controller, you can connect it to your computer and Unity should automatically find it and let you know by printing to the console.  
+If you have a gamepad controller, you can connect it to your computer and Unity should automatically find it and let you know by printing to the console. This might only work on windows with an xbox controller. 
 ![image](https://user-images.githubusercontent.com/37469920/196051410-8940b511-762e-4953-a067-66a9c6c14f3b.png)
 
 
