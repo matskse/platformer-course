@@ -43,17 +43,17 @@ Notice the Rule tile can be used to create the main ground for our levels. Howev
 
 Find the Rule tile asset in Assets/Sprites/Tilemap. Its called GroundRuleTile.asset and should be the 2nd asset in the folder. Click it and view it in the inspector.
 Add a new rule by clicking the small + symbol at the bottom of the Tiling Rules list.
-Select a new sprite for the rule, tiles_out_0 is one of the top three we are missing.  
+Select a new sprite for the rule, tiles_out_0 is one of the two corners we are missing.  
 
 ![image](https://user-images.githubusercontent.com/37469920/195816338-10de222a-904c-4b8c-9069-c3f4c44fc18b.png)
 
 Click in the 3x3 grid to set rules for what this tile expects to be around it.
 Red cross means it expects nothing to be there, green arrow means it expects something to be there. Blank cell means it does not care what is there.
-We have now made a new rule for the top left tile of our ground. Add 2 more rules: One for the top middle tile, and one for the top right tile.  
+We have now made a new rule for the top left tile of our ground. Add another for the top right corner.  
 
 Our Tilemap is allmost done, we are able to paint the levels more easily now, however they do not interact with the Unity world yet. They are only cosmetic images.
 Add a new component to the Tilemap by selecting it and clicking the Add component button in the inspector. Search Tilemap and add a Tilemap Collider 2D.
-This adds a collider to the Tilemap so other objects in Unity can collide with it. We need this for out player and enemies to be able to walk on our levels. Add the default material as the Physics Material 2D fir the Tilemap Collider. Last but not least: Set the Tilemap layer to Ground  
+This adds a collider to the Tilemap so other objects in Unity can collide with it. We need this for our player and enemies to be able to walk on our levels. Add the default material as the Physics Material 2D fir the Tilemap Collider. Last but not least: Set the Tilemap layer to Ground  
 
 ## Task 2: Backgrounds
 **Add a background with parallax effect**  
